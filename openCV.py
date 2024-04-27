@@ -12,7 +12,7 @@ img = cv.imread(image)
 
 #Tranformando a imagem em cinza
 img_cinza = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
-
+#ainnnnnnnnnnnnn nobru apelao
 # Detectando faces na imagem
 faces = face_cascade.detectMultiScale(img_cinza)
 
